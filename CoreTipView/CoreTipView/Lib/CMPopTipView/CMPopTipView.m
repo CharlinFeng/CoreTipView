@@ -83,7 +83,7 @@
     
     CGContextSetRGBStrokeColor(c, 0.0, 0.0, 0.0, 1.0);	// black
 	CGContextSetLineWidth(c, self.borderWidth);
-    
+ 
 	CGMutablePathRef bubblePath = CGPathCreateMutable();
 	
 	if (_pointDirection == PointDirectionUp) {
@@ -695,7 +695,10 @@
 {
 	_highlight = YES;
 	[self setNeedsDisplay];
-	
+    if([self.delegate respondsToSelector:@selector(popTipViewWasDismissedByUserSingleTap)]){
+    
+        [self.delegate popTipViewWasDismissedByUserSingleTap];
+    }
 	[self dismissAnimated:YES];
 	
 	[self notifyDelegatePopTipViewWasDismissedByUser];

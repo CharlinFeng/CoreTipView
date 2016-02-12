@@ -7,17 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		898374361C6E06C600ABC0CA /* CoreTipView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8983742D1C6E06C600ABC0CA /* CoreTipView.m */; };
+		898374371C6E06C600ABC0CA /* CoreTipViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 8983742F1C6E06C600ABC0CA /* CoreTipViewModel.m */; };
+		898374381C6E06C600ABC0CA /* CMPopTipView.m in Sources */ = {isa = PBXBuildFile; fileRef = 898374341C6E06C600ABC0CA /* CMPopTipView.m */; };
 		89DCDB4E1C38F0CE00CE7E8F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 89DCDB4D1C38F0CE00CE7E8F /* main.m */; };
 		89DCDB511C38F0CF00CE7E8F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 89DCDB501C38F0CF00CE7E8F /* AppDelegate.m */; };
 		89DCDB541C38F0CF00CE7E8F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 89DCDB531C38F0CF00CE7E8F /* ViewController.m */; };
 		89DCDB571C38F0CF00CE7E8F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 89DCDB551C38F0CF00CE7E8F /* Main.storyboard */; };
 		89DCDB591C38F0CF00CE7E8F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 89DCDB581C38F0CF00CE7E8F /* Assets.xcassets */; };
 		89DCDB5C1C38F0CF00CE7E8F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 89DCDB5A1C38F0CF00CE7E8F /* LaunchScreen.storyboard */; };
-		89DCDB681C38F0F600CE7E8F /* CMPopTipView.m in Sources */ = {isa = PBXBuildFile; fileRef = 89DCDB671C38F0F600CE7E8F /* CMPopTipView.m */; };
-		89DCDB721C390AF000CE7E8F /* CoreTipView.m in Sources */ = {isa = PBXBuildFile; fileRef = 89DCDB711C390AF000CE7E8F /* CoreTipView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8983742C1C6E06C600ABC0CA /* CoreTipView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreTipView.h; sourceTree = "<group>"; };
+		8983742D1C6E06C600ABC0CA /* CoreTipView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreTipView.m; sourceTree = "<group>"; };
+		8983742E1C6E06C600ABC0CA /* CoreTipViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreTipViewModel.h; sourceTree = "<group>"; };
+		8983742F1C6E06C600ABC0CA /* CoreTipViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreTipViewModel.m; sourceTree = "<group>"; };
+		898374311C6E06C600ABC0CA /* CategoryProperty+CoreTipView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CategoryProperty+CoreTipView.h"; sourceTree = "<group>"; };
+		898374331C6E06C600ABC0CA /* CMPopTipView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMPopTipView.h; sourceTree = "<group>"; };
+		898374341C6E06C600ABC0CA /* CMPopTipView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMPopTipView.m; sourceTree = "<group>"; };
+		898374351C6E06C600ABC0CA /* CoreTipViewSingleton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreTipViewSingleton.h; sourceTree = "<group>"; };
 		89DCDB491C38F0CE00CE7E8F /* CoreTipView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoreTipView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		89DCDB4D1C38F0CE00CE7E8F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		89DCDB4F1C38F0CE00CE7E8F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -28,10 +37,6 @@
 		89DCDB581C38F0CF00CE7E8F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		89DCDB5B1C38F0CF00CE7E8F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		89DCDB5D1C38F0CF00CE7E8F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		89DCDB661C38F0F600CE7E8F /* CMPopTipView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMPopTipView.h; sourceTree = "<group>"; };
-		89DCDB671C38F0F600CE7E8F /* CMPopTipView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMPopTipView.m; sourceTree = "<group>"; };
-		89DCDB701C390AF000CE7E8F /* CoreTipView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreTipView.h; sourceTree = "<group>"; };
-		89DCDB711C390AF000CE7E8F /* CoreTipView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreTipView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +50,37 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8983742B1C6E06C600ABC0CA /* CoreTipView */ = {
+			isa = PBXGroup;
+			children = (
+				8983742C1C6E06C600ABC0CA /* CoreTipView.h */,
+				8983742D1C6E06C600ABC0CA /* CoreTipView.m */,
+				8983742E1C6E06C600ABC0CA /* CoreTipViewModel.h */,
+				8983742F1C6E06C600ABC0CA /* CoreTipViewModel.m */,
+				898374301C6E06C600ABC0CA /* Lib */,
+			);
+			path = CoreTipView;
+			sourceTree = "<group>";
+		};
+		898374301C6E06C600ABC0CA /* Lib */ = {
+			isa = PBXGroup;
+			children = (
+				898374311C6E06C600ABC0CA /* CategoryProperty+CoreTipView.h */,
+				898374321C6E06C600ABC0CA /* CMPopTipView */,
+				898374351C6E06C600ABC0CA /* CoreTipViewSingleton.h */,
+			);
+			path = Lib;
+			sourceTree = "<group>";
+		};
+		898374321C6E06C600ABC0CA /* CMPopTipView */ = {
+			isa = PBXGroup;
+			children = (
+				898374331C6E06C600ABC0CA /* CMPopTipView.h */,
+				898374341C6E06C600ABC0CA /* CMPopTipView.m */,
+			);
+			path = CMPopTipView;
+			sourceTree = "<group>";
+		};
 		89DCDB401C38F0CE00CE7E8F = {
 			isa = PBXGroup;
 			children = (
@@ -64,7 +100,7 @@
 		89DCDB4B1C38F0CE00CE7E8F /* CoreTipView */ = {
 			isa = PBXGroup;
 			children = (
-				89DCDB631C38F0DD00CE7E8F /* CoreTipView */,
+				8983742B1C6E06C600ABC0CA /* CoreTipView */,
 				89DCDB4F1C38F0CE00CE7E8F /* AppDelegate.h */,
 				89DCDB501C38F0CF00CE7E8F /* AppDelegate.m */,
 				89DCDB521C38F0CF00CE7E8F /* ViewController.h */,
@@ -84,33 +120,6 @@
 				89DCDB4D1C38F0CE00CE7E8F /* main.m */,
 			);
 			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		89DCDB631C38F0DD00CE7E8F /* CoreTipView */ = {
-			isa = PBXGroup;
-			children = (
-				89DCDB641C38F0F600CE7E8F /* Lib */,
-				89DCDB701C390AF000CE7E8F /* CoreTipView.h */,
-				89DCDB711C390AF000CE7E8F /* CoreTipView.m */,
-			);
-			path = CoreTipView;
-			sourceTree = "<group>";
-		};
-		89DCDB641C38F0F600CE7E8F /* Lib */ = {
-			isa = PBXGroup;
-			children = (
-				89DCDB651C38F0F600CE7E8F /* CMPopTipView */,
-			);
-			path = Lib;
-			sourceTree = "<group>";
-		};
-		89DCDB651C38F0F600CE7E8F /* CMPopTipView */ = {
-			isa = PBXGroup;
-			children = (
-				89DCDB661C38F0F600CE7E8F /* CMPopTipView.h */,
-				89DCDB671C38F0F600CE7E8F /* CMPopTipView.m */,
-			);
-			path = CMPopTipView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -183,10 +192,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				89DCDB721C390AF000CE7E8F /* CoreTipView.m in Sources */,
-				89DCDB681C38F0F600CE7E8F /* CMPopTipView.m in Sources */,
+				898374381C6E06C600ABC0CA /* CMPopTipView.m in Sources */,
 				89DCDB541C38F0CF00CE7E8F /* ViewController.m in Sources */,
+				898374361C6E06C600ABC0CA /* CoreTipView.m in Sources */,
 				89DCDB511C38F0CF00CE7E8F /* AppDelegate.m in Sources */,
+				898374371C6E06C600ABC0CA /* CoreTipViewModel.m in Sources */,
 				89DCDB4E1C38F0CE00CE7E8F /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

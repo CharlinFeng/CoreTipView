@@ -156,4 +156,5 @@ typedef NS_ENUM(NSInteger, CMPopTipAnimation) {
 
 @protocol CMPopTipViewDelegate <NSObject>
 - (void)popTipViewWasDismissedByUser:(CMPopTipView *)popTipView;
+- (void)popTipViewWasDismissedByUserSingleTap;
 @end
